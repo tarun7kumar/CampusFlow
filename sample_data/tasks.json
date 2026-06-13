@@ -1,0 +1,29 @@
+[
+  {
+    "id": "task_001",
+    "title": "Submit Assignment 3 - Data Structures",
+    "description": "Complete and submit via university portal",
+    "deadline": "2024-12-20T23:59:00Z",
+    "priority": "high",
+    "status": "pending",
+    "source": "email"
+  },
+  {
+    "id": "task_002",
+    "title": "Hackathon Team Meeting",
+    "description": "Meet at library at 4 PM. Bring laptop and wireframes.",
+    "deadline": "2024-12-16T16:00:00Z",
+    "priority": "medium",
+    "status": "pending",
+    "source": "email"
+  },
+  {
+    "id": "task_003",
+    "title": "Prepare presentation slides",
+    "description": "Create slides for the ML project presentation on Friday",
+    "deadline": "2024-12-19T09:00:00Z",
+    "priority": "medium",
+    "status": "in_progress",
+    "source": "manual"
+  }
+]

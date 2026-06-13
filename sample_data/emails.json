@@ -1,0 +1,32 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Assignment 3 Deadline Extended",
+    "sender": "prof.sharma@university.edu",
+    "body": "Dear students, the deadline for Assignment 3 (Data Structures) has been extended to December 20, 2024. Please submit via the portal. Late submissions will not be accepted.",
+    "summary": "",
+    "received_at": "2024-12-15T10:30:00Z",
+    "is_read": false,
+    "priority": "high"
+  },
+  {
+    "id": "email_002",
+    "subject": "Hackathon Team Meeting Tomorrow",
+    "sender": "teammate@gmail.com",
+    "body": "Hey! Let's meet tomorrow at 4 PM in the library to finalize our hackathon project architecture. Bring your laptop and the wireframes we discussed.",
+    "summary": "",
+    "received_at": "2024-12-15T14:00:00Z",
+    "is_read": true,
+    "priority": "medium"
+  },
+  {
+    "id": "email_003",
+    "subject": "Mess Menu Updated for This Week",
+    "sender": "hostel.admin@university.edu",
+    "body": "The mess menu for this week has been updated. Monday: Paneer Butter Masala, Tuesday: Chole Rice, Wednesday: Pasta Day. Check the notice board for full details.",
+    "summary": "",
+    "received_at": "2024-12-14T08:00:00Z",
+    "is_read": true,
+    "priority": "low"
+  }
+]
