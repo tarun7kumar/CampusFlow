@@ -1,22 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Dashboard from './pages/Dashboard'
-import Emails from './pages/Emails'
-import Assistant from './pages/Assistant'
-import Login from './pages/Login'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import LandingPage from './pages/LandingPage'
+import DashboardPage from './pages/DashboardPage'
+import UpdatesPage from './pages/UpdatesPage'
+import AssistantPage from './pages/AssistantPage'
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <Navbar />
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/emails" element={<Emails />} />
-        <Route path="/assistant" element={<Assistant />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/updates" element={<UpdatesPage />} />
+        <Route path="/assistant" element={<AssistantPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
-
-export default App
