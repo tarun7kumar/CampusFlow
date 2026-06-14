@@ -34,7 +34,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        sans: ['Manrope', 'Inter', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
       borderRadius: {
         sm: '8px',

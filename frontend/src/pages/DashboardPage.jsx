@@ -39,20 +39,11 @@ function DashboardNav() {
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-card">
       <div className="max-w-[1400px] mx-auto px-5 h-14 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="CampusFlow" className="w-7 h-7 mix-blend-multiply" />
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="CampusFlow" className="w-8 h-8 p-0.5 object-contain mix-blend-multiply" />
           <span className="text-lg font-semibold text-text-primary tracking-tight">
             Campus<span className="text-terracotta">Flow</span>
           </span>
-        </div>
-
-        {/* Connection Status */}
-        <div className="hidden sm:flex flex-col items-center">
-          <div className="flex items-center gap-1.5">
-            <div className="w-2 h-2 rounded-full bg-sage"></div>
-            <span className="text-xs font-medium text-text-primary">Connected to VIT Gmail</span>
-          </div>
-          <span className="text-[10px] text-text-muted">Last synced: Just now</span>
         </div>
 
         <div className="flex items-center gap-3">
@@ -320,7 +311,7 @@ function SummaryDrawer({ isOpen, onClose, summary, loading }) {
         {/* Header */}
         <div className="sticky top-0 bg-white border-b border-surface-secondary px-6 py-4 flex items-center justify-between">
           <div>
-            <h2 className="text-base font-semibold text-text-primary">AI Insights</h2>
+            <h2 className="text-base font-semibold text-text-primary">Cora's Insights</h2>
             <p className="text-[11px] text-text-muted mt-0.5">Powered by Gemini</p>
           </div>
           <button
@@ -337,7 +328,7 @@ function SummaryDrawer({ isOpen, onClose, summary, loading }) {
           {loading && (
             <div className="flex flex-col items-center justify-center py-12">
               <Loader2 size={24} className="text-terracotta animate-spin mb-3" />
-              <p className="text-sm text-text-muted">Generating AI insights...</p>
+              <p className="text-sm text-text-muted">Cora is generating insights...</p>
             </div>
           )}
 
@@ -456,7 +447,7 @@ function AISuggestions() {
     <div className="bg-white rounded-[12px] p-4 shadow-card">
       <h3 className="text-xs font-medium text-text-muted uppercase tracking-wide mb-3 flex items-center gap-1.5">
         <Sparkles size={12} className="text-gold" />
-        AI Suggestions
+        Cora's Suggestions
       </h3>
       <div className="space-y-2">
         {suggestions.map((s, i) => (
@@ -514,7 +505,7 @@ function QuickAsk() {
     <div className="bg-white rounded-[12px] p-4 shadow-card flex-1 flex flex-col">
       <h3 className="text-xs font-medium text-text-muted uppercase tracking-wide mb-3 flex items-center gap-1.5">
         <MessageCircle size={12} className="text-terracotta" />
-        Ask CampusFlow
+        Ask Cora
       </h3>
 
       {/* Chat messages */}
@@ -534,7 +525,7 @@ function QuickAsk() {
           <div className="flex justify-start">
             <div className="bg-surface-card text-text-muted text-xs px-3 py-2 rounded-[8px] rounded-bl-none border border-surface-secondary">
               <Loader2 size={12} className="animate-spin inline mr-1" />
-              Thinking...
+              Cora is thinking...
             </div>
           </div>
         )}
@@ -547,7 +538,7 @@ function QuickAsk() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Ask CampusFlow..."
+          placeholder="Ask Cora..."
           className="text-sm text-text-primary placeholder:text-text-muted bg-transparent outline-none flex-1 min-w-0"
         />
         <button
