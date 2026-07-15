@@ -1,5 +1,5 @@
 # CampusFlow 🎓
-
+live link: https://campus-flow-ruddy.vercel.app/
 **AI Operating System for Student Life** — Built for Amazon HackOn
 
 > Think of it as "Alexa for your college life" — one AI that knows your timetable, reminds you about deadlines, and tells you the mess menu before you ask.
